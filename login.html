@@ -13,6 +13,86 @@
 
 <body>
 
+    <!-- Header -->
+    <header>
+        <section>
+            <a href="index.html#inicio">
+                <img src="Imagenes/logo-facturate.png" alt="Logo de Facturate">
+            </a>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li>
+                        <a href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="index.html#funcionalidades">Funcionalidades</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="login" href="registro.html">Crear cuenta</a>
+        </section>
+    </header>
+
+    <!-- Main -->
+    <main class="container-fluid">
+
+        <section class="login-card">
+
+            <section class="row min-vh-100">
+
+                <!-- Panel izquierdo -->
+                <section class="col-lg-5 login-info">
+                    <h1>Bienvenido de nuevo.</h1>
+                    <p>
+                        Accede a tu cuenta y continúa gestionando
+                        ventas, clientes, inventario y reportes
+                        desde un solo lugar.
+                    </p>
+                </section>
+
+                <!-- Formulario -->
+                <section class="col-lg-7 login-formulario">
+                    <h2>Iniciar sesión</h2>
+                    <p>Ingresa tus credenciales para acceder a Facturate.</p>
+                    <form action="#" method="post" class="row g-4">
+                        <article class="col-12">
+                            <label for="email">Correo electrónico</label>
+                            <input id="email" name="email" type="email" autocomplete="email"
+                                placeholder="ejemplo@facturate.com" required>
+                        </article>
+                        <article class="col-12">
+                            <label for="password">Contraseña</label>
+                            <input id="password" name="password" type="password" autocomplete="current-password"
+                                minlength="8" maxlength="16" required>
+                        </article>
+                        <article class="col-12">
+                            <button class="boton-login" type="submit">Iniciar sesión</button>
+                        </article>
+                        <article class="col-12 login-registro">
+                            <p>
+                                ¿No tienes una cuenta?
+                                <a href="registro.html">Crear cuenta</a>
+                            </p>
+                        </article>
+                    </form>
+                </section>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="login-footer">
+        <p>© 2026 Facturate. Todos los derechos reservados.</p>
+        <p>Proyecto Integrador CESDE</p>
+        <p>Sistema de Recaudo Digital</p>
+    </footer>
+
 </body>
 
 </html>
