@@ -236,4 +236,19 @@ input:focus {
         font-size: 14px;
     }
 
+    /*Reducir el espacio interno del formulario*/
+    .login-formulario {
+        padding: 40px;
+    }
+
+    /*Reducir el tamaño del título del formulario*/
+    .login-formulario h2 {
+        font-size: 36px;
+    }
+
+    /*Reducir el tamaño del texto descriptivo del panel azul*/
+    .login-info p {
+        font-size: 16px;
+    }
+
 }
