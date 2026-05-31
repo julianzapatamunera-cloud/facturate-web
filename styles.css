@@ -360,3 +360,15 @@ header img{
     gap: 20px;
     font-size: 14px;
 }
+
+.btn-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.btn-whatsapp img{
+    width: 60px;
+    height: auto;
+}
